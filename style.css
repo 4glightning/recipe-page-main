@@ -46,7 +46,7 @@ body {
   border-radius: 10px;
   padding: 2rem;
   width: 60%;
-  margin: 4rem;
+  margin: 6rem;
 }
 
 .page-card img {
@@ -139,6 +139,7 @@ body {
 .page-card table {
   width: 100%;
   border-collapse: collapse; /* Ensures borders are shared between cells */
+  table-layout: fixed;
 }
 
 .page-card table tr {
